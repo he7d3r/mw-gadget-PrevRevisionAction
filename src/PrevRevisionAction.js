@@ -3,7 +3,7 @@
  *
  * @source: http://www.mediawiki.org/wiki/Snippets/Last_revision_action
  * @rev: 5
- * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/PAGENAME.js]] ([[File:User:Helder.wiki/Tools/PAGENAME.js]])
+ * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/LastRevisionAction.js]] ([[File:User:Helder.wiki/Tools/LastRevisionAction.js]])
  */
 /*global $, mw */
 /*jslint white: true */
