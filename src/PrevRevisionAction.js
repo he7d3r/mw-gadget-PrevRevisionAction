@@ -20,7 +20,7 @@ $( function ( $ ) {
                 } else {
                         url = mw.util.wikiGetlink( mw.config.get( 'wgPageName' ) ) + '?diff=0';
                 }
-                mw.util.addPortletLink( 'p-cactions', url, '↶', 'ca-lastdiff', 'Mostrar as alterações feitas na última edição' );
+                mw.util.addPortletLink( 'p-namespaces', url, '↶', 'ca-lastdiff', 'Mostrar as alterações feitas na última edição' );
         }
 } );
 
