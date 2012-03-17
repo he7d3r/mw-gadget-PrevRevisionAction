@@ -5,9 +5,9 @@
  * @rev: 5
  * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/LastRevisionAction.js]] ([[File:User:Helder.wiki/Tools/LastRevisionAction.js]])
  */
-/*global $, mw */
-/*jslint white: true */
-$(function () {
+/*jslint browser: true, white: true*/
+/*global jQuery, mediaWiki */
+( function ( $, mw /* , undefined */ ) {
 'use strict';
 
 $( function ( $ ) {
@@ -24,4 +24,4 @@ $( function ( $ ) {
         }
 } );
 
-});
+}( jQuery, mediaWiki ) );
