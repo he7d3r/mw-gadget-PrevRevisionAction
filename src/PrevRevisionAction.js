@@ -21,7 +21,7 @@ mw.hook( 'wikipage.content' ).add( function() {
         if ( $link.length ) {
                 $link.attr( 'href', url );
         } else {
-                mw.util.addPortletLink( 'p-cactions', url, '↶', 'ca-prevdiff', 'Show diff to previous edit' );
+                mw.util.addPortletLink( 'p-namespaces', url, '↶', 'ca-prevdiff', 'Show diff to previous edit' );
         }
 } );
 
