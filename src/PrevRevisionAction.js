@@ -16,7 +16,7 @@ mw.hook( 'wikipage.content' ).add( function() {
                 return;
         }
         var url = mw.util.wikiGetlink( mw.config.get( 'wgPageName' ) ) +
-                '?diff=' + mw.config.get( 'wgCurRevisionId' ),
+                '?diff=' + ( mw.config.get( 'wgRevisionId' ) || mw.config.get( 'wgCurRevisionId' ) ),
                 $link = $('#ca-prevdiff').find('a');
         if ( $link.length ) {
                 $link.attr( 'href', url );
