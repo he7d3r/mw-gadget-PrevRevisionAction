@@ -3,7 +3,6 @@
  *
  * @source: www.mediawiki.org/wiki/Snippets/Last_revision_action
  * @rev: 9
- * @tracking: [[Special:GlobalUsage/User:Helder.wiki/Tools/PrevRevisionAction.js]] ([[File:User:Helder.wiki/Tools/PrevRevisionAction.js]])
  */
 /*jslint browser: true, white: true*/
 /*global mediaWiki, jQuery */
