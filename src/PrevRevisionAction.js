@@ -4,8 +4,6 @@
  * @source: www.mediawiki.org/wiki/Snippets/Last_revision_action
  * @rev: 9
  */
-/*jslint browser: true, white: true*/
-/*global mediaWiki, jQuery */
 ( function ( mw, $ ) {
 'use strict';
 
